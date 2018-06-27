@@ -38,7 +38,7 @@ def createPlist():
         os.system("echo '<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE plist PUBLIC '-//Apple//DTD PLIST 1.0//EN' 'http://www.apple.com/DTDs/PropertyList-1.0.dtd'><plist version='1.0'><dict/></plist>' > exportOption.plist")
         os.system("plutil -lint exportOption.plist")
 #        os.system("plutil -insert compileBitcode -bool 'NO' exportOption.plist")
-        os.system("plutil -insert method -string 'app-store' exportOption.plist")
+        os.system("plutil -insert method -string '' exportOption.plist")
         os.system("plutil -insert provisioningProfiles -json '{\"%s\":\"%s\"}' exportOption.plist" % (projectBundleID, provisioningName))
         os.system("plutil -insert signingCertificate -string 'iPhone Distribution' exportOption.plist")
         os.system("plutil -insert signingStyle -string 'manual' exportOption.plist")
