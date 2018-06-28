@@ -76,31 +76,3 @@ def automaticPack():
 automaticPack()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
