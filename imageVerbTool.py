@@ -41,27 +41,11 @@ def verbImage(imageList):
 
     print('路小飞，您的图片myLongImage拼接完成！！')
 
-# def CalculationHeightWidth1(imageList):
-#
-#     list = []
-#
-#     for path in imagelist:
-#
-#         im = Image.open(path)
-#
-#         w, h = im.size
-#
-#         list.append((w, h))
-#
-#     return list
-
 imagelist = ['test1.jpg', 'test2.jpg', 'test3.jpg']
 
 list = verbImage(imagelist)
 
 print(list)
-
-# verbImage(imagelist)
 
 
 
