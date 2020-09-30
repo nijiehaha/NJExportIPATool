@@ -1,2 +1,3 @@
 # NJExportIPATool
-自己写的打包脚本及其他python脚本
+
+iOS 打包脚本及其他 python 脚本
